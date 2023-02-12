@@ -9,7 +9,7 @@ public partial class MediaPage : ContentPage
 
     private void ContentPage_Unloaded(object sender, EventArgs e)
     {
-
+		me1.Handler?.DisconnectHandler();
     }
 }
 
