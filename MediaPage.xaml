@@ -19,6 +19,12 @@
 
             <toolkit:MediaElement x:Name="me1" Source="file_example_MP4_480_1_5MG.mp4" Speed="0" ShouldAutoPlay="False" HeightRequest="200" />
 
+            <Button
+                x:Name="BackBtn"
+                Text="Back"
+                Clicked="OnBackClicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 

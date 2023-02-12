@@ -24,6 +24,7 @@ public partial class MainPage : ContentPage
     private async void OnMediaPageClicked(object sender, EventArgs e)
     {
 		await Navigation.PushAsync(new MediaPage());
+        //await Navigation.PushModalAsync(new MediaPage());
     }
 }
 
