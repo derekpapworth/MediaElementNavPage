@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MediaElementNavPage.MediaPage"
+             Unloaded="ContentPage_Unloaded">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Media Page"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <toolkit:MediaElement x:Name="me1" Source="file_example_MP4_480_1_5MG.mp4" Speed="0" ShouldAutoPlay="False" HeightRequest="200" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
